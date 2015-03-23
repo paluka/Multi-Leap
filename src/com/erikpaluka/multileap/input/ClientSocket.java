@@ -44,7 +44,12 @@ public class ClientSocket {
     	lastFrame = null;
     	controller = null;
     	
-    	if (statusCode == 1008) {
+    	
+    	////////////////////////////////////////////////////////////////////////////////////
+    	// Status code 1000: Normal closure; 
+    	// the connection successfully completed whatever purpose for which it was created.
+    	////////////////////////////////////////////////////////////////////////////////////
+    	if (statusCode > 1000 && statusCode < 1016) {
     		sessionFailed = true;
     	}
     }

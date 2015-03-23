@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="libraries/jetty-distribution-9.2.3.v20140905/lib/jetty-io-9.2.3.v20140905.jar"/>
+	<classpathentry kind="lib" path="libraries/jetty-distribution-9.2.3.v20140905/lib/jetty-util-9.2.3.v20140905.jar"/>
+	<classpathentry kind="lib" path="libraries/jetty-distribution-9.2.3.v20140905/lib/websocket/websocket-api-9.2.3.v20140905.jar"/>
+	<classpathentry kind="lib" path="libraries/jetty-distribution-9.2.3.v20140905/lib/websocket/websocket-client-9.2.3.v20140905.jar"/>
+	<classpathentry kind="lib" path="libraries/jetty-distribution-9.2.3.v20140905/lib/websocket/websocket-common-9.2.3.v20140905.jar"/>
+	<classpathentry kind="lib" path="libraries/JSON.simple/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="libraries/json-simpler/json-simpler-2.1b2.jar"/>
+	<classpathentry kind="lib" path="libraries/Leap Motion/LeapJava.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

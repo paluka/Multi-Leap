@@ -31,7 +31,7 @@ public class LeapParser {
 	JSONParser jParser;
 	final int ID_ADDITION = 10_000_000;
 	public ControllerObj controller;
-	
+	public boolean exceptionOccurred = false;
 
 	public LeapParser() {
 		jParser = new JSONParser();
@@ -43,7 +43,8 @@ public class LeapParser {
 		this.controller = controller;
 		
 		try {
-			JSONAdapter jAdapter = new JSONAdapter(jParser.parse(msg));
+			Object parsedMsg = jParser.parse(msg);
+			JSONAdapter jAdapter = new JSONAdapter(parsedMsg);
 
 			if (jAdapter.containsKey("currentFrameRate")) {
 				
@@ -78,8 +79,9 @@ public class LeapParser {
 				return frame;
 			}		
 		} catch (ParseException e) {
+			exceptionOccurred = true;
 			System.out.println("ParseException for LeapVM message.");
-			e.printStackTrace();
+			//e.printStackTrace();
 		}
 		
 		return null;

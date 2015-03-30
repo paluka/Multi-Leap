@@ -6,4 +6,4 @@ Uses WebSocket clients and Leap Motion wrapper classes to allow multiple Leap Mo
 Current version is programmatically coupled to a project that I am using it for. I will generalize it when I am finished my master's degree in the coming year.
 
 Erik Paluka 2015.
-Open source and licensed under [LGPL-v3](http://www.gnu.org/licenses/lgpl.html).
+Open source and licensed under the [MIT License](http://www.opensource.org/licenses/MIT).

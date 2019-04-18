@@ -3,8 +3,6 @@
 
 Uses WebSocket clients and Leap Motion wrapper classes to allow multiple Leap Motion controllers to be used with a single computer.
 
-Current version is programmatically coupled to a project that I am using it for.
-
 ## How To Use
 See:.   
 https://www.erikpaluka.com/blog/multiple-leap-controllers/   
